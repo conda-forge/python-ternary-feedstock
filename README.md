@@ -5,7 +5,7 @@ Home: https://github.com/marcharper/python-ternary
 
 Package license: MIT
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Make ternary plots in matplotlib
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-ternary-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/python-ternary-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-ternary-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-ternary-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-ternary-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-ternary-feedstock/branch/master)
