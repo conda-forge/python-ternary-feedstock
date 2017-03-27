@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Make ternary plots in matplotlib
+Summary: Make ternary plots in matplotlib.
 
 
 
