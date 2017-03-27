@@ -1,34 +1,36 @@
-{% set version = "1.0" %}
+{% set version = "1.0.1" %}
 
 package:
-    name: python-ternary
-    version: {{ version }}
+  name: python-ternary
+  version: {{ version }}
 
 source:
-    fn: python-ternary-{{ version }}.tar.gz
-    url: https://pypi.python.org/packages/source/p/python-ternary/python-ternary-{{ version }}.tar.gz
-    md5: b4afa32a9cb8b8c7156ba9f9f9b481f8
+  fn: python-ternary-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/python-ternary/python-ternary-{{ version }}.tar.gz
+  sha256: afe8aaffb7b93d2e38121a499b1a9f75d7fadf6de9f7106da1e0d72d12119e58
 
 build:
-    number: 0
-    script: python setup.py install
+  number: 0
+  script: python setup.py install
 
 requirements:
-    build:
-        - python
-    run:
-        - python
-        - matplotlib >=1.4
+  build:
+    - python
+  run:
+    - python
+    - matplotlib >=1.4
 
 test:
-    imports:
-        - ternary
+  imports:
+    - ternary
+
 about:
-    home: https://github.com/marcharper/python-ternary
-    license: MIT
-    summary: Make ternary plots in matplotlib
+  home: https://github.com/marcharper/python-ternary
+  license: MIT
+  license_file: license.txt
+  summary: 'Make ternary plots in matplotlib.'
 
 extra:
-    recipe-maintainers:
-        - ocefpaf
-        - marcharper
+  recipe-maintainers:
+    - ocefpaf
+    - marcharper
