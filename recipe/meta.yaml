@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: python-ternary
@@ -6,15 +6,17 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/python-ternary/python-ternary-{{ version }}.tar.gz
-  sha256: 42e49df2fb135af81f7426ea93aef8d7f4b10ccd78cebf64acf0ae257da2351d
+  sha256: 024b885c3c1b0e828d3d4d35b0946c41e6a6514214cb2fdaa9b3560c4f8139ec
 
 build:
+  noarch: python
   number: 0
-  script: python setup.py install
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
+    - pip
   run:
     - python
     - matplotlib >=1.4
