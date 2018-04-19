@@ -14,16 +14,12 @@ Summary: Make ternary plots in matplotlib.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/python-ternary-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/python-ternary-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/python-ternary-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/python-ternary-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/python-ternary-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/python-ternary-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/python-ternary-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-ternary-feedstock)
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-python--ternary-green.svg)](https://anaconda.org/conda-forge/python-ternary)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-ternary.svg)](https://anaconda.org/conda-forge/python-ternary)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-ternary.svg)](https://anaconda.org/conda-forge/python-ternary)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-ternary.svg)](https://anaconda.org/conda-forge/python-ternary)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-ternary/badges/version.svg)](https://anaconda.org/conda-forge/python-ternary)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-ternary/badges/downloads.svg)](https://anaconda.org/conda-forge/python-ternary)
 
 Installing python-ternary
 =========================
