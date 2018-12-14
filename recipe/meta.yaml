@@ -9,9 +9,9 @@ source:
   sha256: 1dc59ff2324e5d0c3727064eddf8832d571d2549b26285dfe7dc5d24b51071d5
 
 build:
-  noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
@@ -28,8 +28,7 @@ test:
 about:
   home: https://github.com/marcharper/python-ternary
   license: MIT
-  license_file: license.txt
-  summary: 'Make ternary plots in matplotlib.'
+  summary: 'Make ternary plots in matplotlib'
 
 extra:
   recipe-maintainers:
