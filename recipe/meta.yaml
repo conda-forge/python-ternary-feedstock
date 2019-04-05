@@ -1,4 +1,4 @@
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 package:
   name: python-ternary
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/python-ternary/python-ternary-{{ version }}.tar.gz
-  sha256: 1dc59ff2324e5d0c3727064eddf8832d571d2549b26285dfe7dc5d24b51071d5
+  sha256: 443b5c576032c14e52beb6d3708435f0492ba727839aee9bd8e14c2421d2ac46
 
 build:
   number: 0
