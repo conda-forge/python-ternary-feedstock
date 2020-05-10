@@ -1,4 +1,4 @@
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 package:
   name: python-ternary
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/python-ternary/python-ternary-{{ version }}.tar.gz
-  sha256: 443b5c576032c14e52beb6d3708435f0492ba727839aee9bd8e14c2421d2ac46
+  sha256: 8447eeef6c4338f64e2234989e5d5fdf32bb281cb073a498619fa4c1df98c173
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -28,8 +28,8 @@ test:
 about:
   home: https://github.com/marcharper/python-ternary
   license: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Make ternary plots in matplotlib'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Make ternary plots in matplotlib
 
 extra:
   recipe-maintainers:
