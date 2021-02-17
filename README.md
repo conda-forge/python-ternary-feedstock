@@ -5,11 +5,9 @@ Home: https://github.com/marcharper/python-ternary
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-ternary-feedstock/blob/master/LICENSE.txt)
 
 Summary: Make ternary plots in matplotlib
-
-
 
 Current build status
 ====================
